@@ -38,9 +38,9 @@ dependencies {
     implementation ("org.springframework.boot:spring-boot-starter-web:2.5.10") // Secure and stable
 
     // Upgrade to Log4j2 which resolves vulnerabilities found in Log4j 1.x
-    // Version 2.16.0 mitigates CVE-2021-44228 (Log4Shell)
-    implementation ("org.apache.logging.log4j:log4j-core:2.16.0")
-    implementation ("org.apache.logging.log4j:log4j-api:2.16.0")
+    // Version 2.17.1 mitigates CVE-2021-44228 (Log4Shell), CVE-2021-45046, and CVE-2021-45105
+    implementation ("org.apache.logging.log4j:log4j-core:2.17.1")
+    implementation ("org.apache.logging.log4j:log4j-api:2.17.1")
 
     // Upgrade to latest Gson version
     implementation ("com.google.code.gson:gson:2.8.9")
